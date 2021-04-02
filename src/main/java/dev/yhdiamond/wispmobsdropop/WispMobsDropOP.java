@@ -10,6 +10,7 @@ public final class WispMobsDropOP extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(new DeathListener(), this);
+        Bukkit.getPluginManager().registerEvents(new AnvilListener(), this);
         new Metrics(this, 10889);
         getCommand("wispmobsdropop").setExecutor(new StartCommand());
         getCommand("wispmobsdropop").setTabCompleter(new CommandComplete());
