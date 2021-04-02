@@ -1,0 +1,8 @@
+name: WispMobsDropOP
+version: ${project.version}
+main: dev.yhdiamond.wispmobsdropop.WispMobsDropOP
+api-version: 1.16
+commands:
+  wispmobsdropop:
+    usage: /wispmobsdropop <start/stop>
+    description: Starts the Wisp Mobs Drop OP Items challenge
